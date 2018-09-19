@@ -14,3 +14,11 @@ Push the finished files to the repo, continuously merge everything to the master
 
 - Designer: Hassan Yousuf
 - Developer: John Robertson
+
+Programs Used: 
+
+- Github Desktop
+- Adobe Illustrator
+- Adobe Photoshop
+- Adobe After Effects
+- Visual Studio Code
