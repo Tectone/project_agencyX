@@ -22,3 +22,15 @@
 - Adobe Photoshop
 - Adobe After Effects
 - Visual Studio Code
+
+**Progress**
+
+- [x] Create WireFrames
+- [ ] Code HTML
+- [ ] Code CSS
+- [ ] Implement Backend elements
+- [ ] Record Video
+- [ ] Create Video Player
+- [ ] Implement Video
+- [ ] Clean Up Folders
+- [ ] Submit
