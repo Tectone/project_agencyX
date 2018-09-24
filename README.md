@@ -10,7 +10,7 @@
 
 **Developer:** The developer will be creating the repository on Github and creating the Readme File. The developer will be creating the workflow files of which the techniques will be taught as we progress through the term. Setting up the Gulp Workflow, managing dependencies, adding technical spec to the Readme etc. Create custom Javascript components to access an object containing team member data, portfolio data etc. The developer will also work with the designer to develop a lightbox effect to view a larger version of each portfolio piece with relevent information.
 
-**Push the finished files to the repo, continuously merge everything to the master branch and submit the repo link to the FOL dropbox.**
+**The Developer will push the finished files to the repo, continuously merge everything to the master branch and submit the repo link to the FOL dropbox.**
 
 - Designer: Hassan Yousuf
 - Developer: John Robertson
