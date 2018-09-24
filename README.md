@@ -23,7 +23,7 @@
 - Adobe After Effects
 - Visual Studio Code
 
-**Progress**
+**Progress** :+1:
 
 - [x] Create WireFrames
 - [ ] Code HTML
