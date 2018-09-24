@@ -28,7 +28,7 @@
 - [x] Create WireFrames
 - [ ] Code HTML
 - [ ] Code CSS
-- [ ] Implement Backend elements
+- [ ] Implement Back-end elements
 - [ ] Record Video
 - [ ] Create Video Player
 - [ ] Implement Video
