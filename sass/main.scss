@@ -1,13 +1,18 @@
-@import '_vars';
 
-body 
-{ 
-    background-color: $background-color; 
-    color: $master-font-color;
+.IntroductionJH div{
 
 }
 
-h1 
-{
-    color: $master-font-color; 
-}
+@import 'banner';
+
+
+@import 'skills';
+
+
+@import 'contact';
+
+
+@import 'bio';
+
+
+@import 'portfolio';
