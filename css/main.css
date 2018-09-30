@@ -1,76 +1,65 @@
 /* @charset "UTF-8";
 /* CSS Document */
 
-
+.container
+{
+	width:100vw;
+}
 Header
 {
 	background-color: #666;
-	 /* padding-bottom: 400px;
-	 padding-top:400px; */
-	 height: 800px;
+	 height: 100vh;
+	 width:100vw;
 	 text-align: center;
 	 font-size: 35px;
-	 color: white;
-}
-
-.skills
-{
-text-align: center;
-height:800px;
-/* padding-top: 400px;
-padding-bottom:250px; */
-background-color: #670;
+	 /* background-size:cover; */
 }
 
 
-.skills p
-{
-	background-color: #669;
-	width:150px;
-	height: 30px;
-	text-align: center;
-
-}
 
 .bio
 {
 	background-color: #667;
-	 /* padding-bottom: 400px;
-	 padding-top:400px; */
-	 height:800px;
+	 height: 100vh;
+	 width:100vw;
 	 text-align: center;
-	 font-size: 35px;
 	 color: white;
+
+}
+
+.bio p
+{}
+
+
+.skills
+{
+
+height: 100vh;
+width:100vw;
+background-color: #670;
+paddin-top:10vw;
+padding-bottom:10vw;
+
 }
 
 .skills p
 {
 		background-color: #666;
-		height: 60px;
-		margin: 50px;
+	
 		text-align: center;
 }
 
 .portfolio
 {
 	background-color: #664;
-	 /* padding-bottom: 400px;
-	 padding-top:400px; */
-	 height:800px;
-	 text-align: center;
-	 font-size: 35px;
-	 color: white;
+
 }
 
 .contact
 {
 	background-color: #663;
-	 /* padding-bottom: 200px;
-	 padding-top:200px; */
-	 height:900px;
-	 text-align: center;
-	 font-size: 35px;
-	 color: white;
+	height:fit-content;
+
 }
 
 section
@@ -78,22 +67,13 @@ section
 	border-bottom:solid black 4px;
 	border-top:solid black 0px;
 }
-.container
-{
-  margin: 0 auto;
-  width: 100%;
-	height:100%;
-}
 
 header .banner {
-    background-color:#grey;
-    background-position: top;
-    background-size: 100%;
-    height: 55%;
-    position: relative;
-    z-index: -10;
+    background-color:#grey;	
 }
 
+/* css will be converted over to sass after speaking with trevor */
+/* from now on, each section will be worked on till completion then uploaded up to github before starting next section */
 
 
 
@@ -111,12 +91,15 @@ header .banner {
 @media screen and(max-width:992px)
 {
 	/* .skills float:right medium screen */
-	wdith:100%;
+	width:100%;
 
 
 }
 
-@media screen and (max-width:)
+@media screen and (max-width:;)
 {
 
 }
+
+/* media querie: in process, will get back to after work sunday */
+/* skills foundation alone doesn't allow for width to properly register for each screen size */
