@@ -29,8 +29,5 @@
 - [ ] Code HTML
 - [ ] Code CSS
 - [ ] Implement Back-end elements
-- [ ] Record Video
-- [ ] Create Video Player
-- [ ] Implement Video
 - [ ] Clean Up Folders
 - [ ] Submit
