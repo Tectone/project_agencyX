@@ -26,7 +26,7 @@
 **Progress**
 
 - [x] Create WireFrames
-- [ ] Code HTML
+- [x] Code HTML
 - [ ] Code CSS
 - [ ] Implement Back-end elements
 - [ ] Clean Up Folders
