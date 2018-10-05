@@ -31,3 +31,6 @@
 - [ ] Implement Back-end elements
 - [x] Clean Up Folders
 - [ ] Submit
+
+**References**
+- https://www.w3schools.com/howto/howto_js_lightbox.asp
