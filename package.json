@@ -1,0 +1,32 @@
+{
+  "name": "robertson_j_yousuf_h_agencyx",
+  "version": "1.0.0",
+  "description": "agency site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tectone/project_agencyX.git"
+  },
+  "keywords": [
+    "agency"
+  ],
+  "author": "Robertson John, Yousuf Hassan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tectone/project_agencyX/issues"
+  },
+  "homepage": "https://github.com/Tectone/project_agencyX#readme",
+  "dependencies": {
+    "eslint": "^5.6.1",
+    "sass": "^1.13.4"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
