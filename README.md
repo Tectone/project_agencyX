@@ -27,7 +27,7 @@
 
 - [x] Create WireFrames
 - [x] Code HTML
-- [ ] Code CSS
+- [x] Code CSS
 - [ ] Implement Back-end elements
-- [ ] Clean Up Folders
+- [x] Clean Up Folders
 - [ ] Submit
