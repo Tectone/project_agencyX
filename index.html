@@ -6,127 +6,165 @@
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/foundation.css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
 <body>
 
 
-<div class="container">
 
-<section class="row, fullWidth, IntroductionJH">
-  <div class="banner">
 
-    <Header>
-      <h2>John and Hassan</h2>
-    </Header>
-  <!-- https://codepen.io/akholod/pen/NrxMvy     the link to the codepen to make a full screen desktop-->
 
-<!-- <div class="container columns small-12 medium-12 large-12">
 
-  <div class="banner parallax scroll" id="parallax">
-             <div class="container">
-                 <div class="row">
-                     <div class="col-md-offset-4 col-md-8 col-sm-12  banner-content">
-                         <h3>full stack web developer</h3>
-                         <h1>
-                             Personal portfolio webpage
-                         </h1>
-                         <h3>Andrew Kokhanevich</h3>
-                     </div>
-                 </div>
-                 <div class="row">
-                 </div>
-             </div>
-         </div>
-     </header> -->
 
+  <header>
+      <div class="headerContainer">
+        <img class="logo" src="images/logo.png" alt="logo">
+        <hr class="logoHr">
+        <h1 class="headerTitle">John & Hassan</h1>
+        <h2 class="headerSubtitle">Designer & Web Developer</h2>
+      </div>
+  </header>
+
+<div id="banner">
+  <img src="images/banner.png" alt="bannerImage">
 </div>
-</section>
 
 
-<section class="row, FullWidth, bioSection">
-<section>
-<div class="bio">
-  <h2>This is us</h2>
-  <p class=" columns small-10 medium-10 large-100 float-centered">kdhfapoenjafeuafndsakfbdiaoufhe;anfdklsabufian
-    fkelafdiasbfewalnfjkasdlbfuiasfneawnfisadbufoianleaisbfueiaw
-    ohfeafbdsafulieanfeiasbfuaslnjfdsalfudsahfjeabfiasolufhafjdbsai
-    fluahfasdlbfudjasifldhnajiefbai</p>
-</section>
+
+
+
+
+
+
+
+<div class="bio row">
+  <div class="columns fullWidth large-">
+  <h2>We are John & Hassan</h2>
+  <hr>
+
+  <h5>Web Developer | John</h5>
+  <p>Hey I'm John Robertson and I'm an aspiring front-end Developer / Designer. I'm only 24 years old so I got alot of time ahead of me to learn and get to where I want to be in life. I enjoy helping people when they've got problems, so if you need any assistance with anything don't hesitate to reach out to me. <a href="https://github.com/Tectone">Github</a><br><br>
+
+    <h5>Designer | Hassan</h5>
+  <p>Hey I'm Hassan. I'm a Designer. I didn't do anything for this project except giving John broken code. I also never wanted to reply to John to update him on the project. Give me good grade please. 
+ </p>
+ </div>
 </div>
+
 </section>
 
-<section class="row, FullWidth, skillsSection">
-<section>
-<div class="skills text-centered">
+<div class=" row skills">
 
   <h2>Our skills</h2>
+  <p class="h2Sub">We can help assist you in either Web Development or Design. </p>
 
-  <article class="columns large-4 medium-4   small-12 ">
-  <h3>icon</h3>
-    <p>text</p>
-  </article>
-
-  <article class="columns large-4 medium-4  small-12 ">
-  <h3>icon</h3>
-    <p>text</p>
+    <article class="columns  large-4 medium-4  small-12 ">
+  <i class="fas fa-pencil-alt icons"></i>
+    <p class="titleP">Concept & Design</p>
+    <p class="subtitleP">John Robertson</p>
   </article>
 
 
   <article class="columns large-4 medium-4  small-12 ">
-  <h3>icon</h3>
-    <p>text</p>
+  <i class="fas fa-desktop icons"></i>
+    <p class="titleP">Web Development</p>
+    <p class="subtitleP">John Robertson</p>
+  </article>
+
+    <article class="columns large-4 medium-4  small-12 ">
+  <i class="fas fa-camera-retro icons"></i></i>
+    <p class="titleP">Photography</p>
+    <p class="subtitleP">John Robertson</p>
   </article>
 
 
+</div>
+
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="images/logoDesignThumb.png" onclick="openModal();currentSlide(1)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="images/photographyThumb.png" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
 
 </div>
-</section>
-</section>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 2</div>
+      <img src="images/logoDesign.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 2</div>
+      <img src="images/photography.png" style="width:100%">
+    </div>
 
 
-<!-- <section class="row, FullWidth, portfolioSection">
-<section>
-<div class="portfolio">
-  <h2>Portfolio</h2>
- boxes
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column">
+      <img class="demo" src="images/logoDesign.png" onclick="currentSlide(1)" alt="Logo Design">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="images/photography.png" onclick="currentSlide(2)" alt="Photography">
+    </div>
+
+  </div>
 </div>
-</section>
-</section> -->
 
 
-<section class="row, fullWidth">
-<section>
-<div class="container contact columns small-6 medium-6 large-6">
-    <h2>contact</h2>
 
-    <article class="columns, large-6, medium-6, small-12, large-centered">
-      <form action="/action_page.php">
+<div class="contact row">
+
+  <div class="columns large-centered large-10">
+
+    <h2>Contact Us</h2>
+    <p>If you're interested in working with us, feel free to send us an email!<br>We'd love to work with you!</p>
+
+  
+      <form action="index.html">
         <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </article>
+        <input type="text" id="fname" name="firstname" placeholder="Your name...">
+      
 
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Email</label>
+        <input type="text" id="email" name="Your Email" placeholder="Your email...">
 
 
 
         <label for="subject">Subject</label>
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        <textarea id="subject" name="subject" placeholder="How can we assist you? " style="height:200px"></textarea>
 
-        <input type="submit" value="Submit">
+        <input class="button" type="submit" value="Submit">
       </form>
-    
+    </div>
+</div>
 
-
-    </div> <!-- closing container -->
-  </section>
-</section>
-
+</p>
+</div>
 </div>
 
 
-
 </body>
-<link href="js/main.js" rel="stylesheet" type="text/js">
+
+<script src="js/main.js"></script>
 </html>

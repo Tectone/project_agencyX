@@ -1,52 +1,152 @@
 /* @charset "UTF-8";
 /* CSS Document */
 
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .container
 {
 	width:100vw;
 }
-Header
-{
-	background-color: #666;
-	 height: 100vh;
-	 width:100vw;
-	 text-align: center;
-	 font-size: 35px;
-	 /* background-size:cover; */
+
+.fullWidth {
+  width: 100%;
+}
+
+.row {
+  margin: 0 0 0 0;
+  max-width: 100%;
 }
 
 
+/* Header / Background
+------------------------------------------ */
+
+
+.logo {
+  width: 40%;
+  margin-bottom: 10px;
+}
+
+.logoHr {
+  width: 30%;
+}
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 300px;
+}
+
+.headerContainer {
+  margin-top: 10px;
+  text-align: center;
+
+
+}
+
+.headerTitle {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 6px;
+}
+
+.headerSubtitle {
+  color: #fff;
+  opacity: .6;
+  font-size: 20px;
+  letter-spacing: 6px;
+}
+
+
+
+/* Bio
+------------------------------------------ */
 
 .bio
 {
-	background-color: #667;
-	 height: 100vh;
-	 width:100vw;
+	background-color: #111111;
+  border-top: #898989 solid 3px;
+  border-bottom: #898989 solid 3px;
+	 height: 550px;
+	 width: 100%;
 	 text-align: center;
 	 color: white;
-
+   background-image: url(../images/bg.png);
 }
 
-.bio p
-{}
+.bio h2 {
+  margin-top: 70px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
 
+.bio h5 {
+  font-weight: bolder;
+}
+
+.bio p {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+hr {
+  opacity: .2;
+}
+
+
+/* Our Skills
+------------------------------------------ */
 
 .skills
 {
-
-height: 100vh;
-width:100vw;
-background-color: #670;
-paddin-top:10vw;
-padding-bottom:10vw;
+  background-color: #111111;
+   height: 500px;
+   width: 100%;
+   text-align: center;
+   color: white;
+   background-image: url(../images/bg.png);
+   border-bottom: #898989 solid 3px;
 
 }
 
-.skills p
+.skills h2 {
+  text-transform: uppercase;
+  margin-top: 40px;
+  font-weight: bolder;
+}
+
+.h2Sub {
+    margin-bottom: 80px;
+}
+
+
+.icons{
+  font-size: 100px;
+  color: #d8d8d8;
+}
+
+.titleP
 {
-		background-color: #666;
-	
+		margin-top: 20px;
+    font-weight: bolder;
+    font-size: 30px;
 		text-align: center;
+    margin-bottom: 0px;
+}
+
+.subtitleP {
+  font-size: 15px;
+  letter-spacing: 5px;
+  color: white;
+  margin-top: 0px;
 }
 
 .portfolio
@@ -55,51 +155,237 @@ padding-bottom:10vw;
 
 }
 
+
+
+/* Contact Page
+------------------------------------------ */
+
 .contact
 {
-	background-color: #663;
-	height:fit-content;
+  background-color: #111111;
+   height: 800px;
+   width: 100%;
+   text-align: center;
+   color: white;
+   background-image: url(../images/bg.png);
+   border-bottom: #898989 solid 3px;
 
 }
 
-section
+.contact
 {
-	border-bottom:solid black 4px;
-	border-top:solid black 0px;
+  background-color: #663;
+  height:fit-content;
+
 }
 
-header .banner {
-    background-color:#grey;	
-}
-
-/* css will be converted over to sass after speaking with trevor */
-/* from now on, each section will be worked on till completion then uploaded up to github before starting next section */
-
-
-
-
-
-/* ------------------------------ MEDIA QUERIE ------------------------------- */
-
-
-@media screen and (max-width:640px)
+.contact h2
 {
-	/* .skills float down */
-	
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
-@media screen and(max-width:992px)
-{
-	/* .skills float:right medium screen */
-	width:100%;
 
-
+.contact #fname, #email, textarea {
+  width: 70%;
+  margin: 0 auto;
 }
 
-@media screen and (max-width:;)
-{
-
+.button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: bolder;
+  border: white solid 2px;
+  width: 40%;
 }
 
-/* media querie: in process, will get back to after work sunday */
-/* skills foundation alone doesn't allow for width to properly register for each screen size */
+
+
+/* Picture Modal
+------------------------------------------ */
+
+
+.row > .column {
+
+   background-image: url(../images/bg.png);
+   border-bottom: #898989 solid 3px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+/* Media Queries
+------------------------------------------ */
+
+@media only screen and (max-width: 850px) {
+
+  header {
+    top: 80px;
+  }
+
+  .logo {
+    width: 50%;
+  }
+   
+   .headerTitle {
+  font-size: 35px;
+}
+
+.headerSubtitle {
+  font-size: 15px;
+}
+}
+
+
+@media only screen and (max-width: 640px) {
+
+  header {
+    top: 50px;
+  }
+   
+
+   .headerTitle {
+  font-size: 35px;
+}
+
+.headerSubtitle {
+  font-size: 15px;
+}
+
+.bio {
+  height: 670px;
+}
+
+.skills {
+  height: 1000px;
+}
+
+.skills article {
+  margin-top: 30px;
+}
+}
