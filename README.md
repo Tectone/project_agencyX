@@ -28,9 +28,9 @@
 - [x] Create WireFrames
 - [x] Code HTML
 - [x] Code CSS
-- [ ] Implement Back-end elements
+- [x] Implement Back-end elements
 - [x] Clean Up Folders
-- [ ] Submit
+- [x] Submit
 
 **References**
 - https://www.w3schools.com/howto/howto_js_lightbox.asp
