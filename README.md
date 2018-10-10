@@ -1,20 +1,15 @@
 # Agency X
 
-**Project Description:** 
+## Project Description:
 
-**Project Requirements:** 
+## Project Requirements:
 
-**Designer**: 
-
-
-**Developer:** 
-
-**Programs Used:** 
+## Programs Used:
 
 -
 -
 
-**Progress**
+## Progress
 
 - [ ] Create WireFrames
 - [ ] Create Gui for Thermo
@@ -26,5 +21,12 @@
 - [ ] Clean Up Folders
 - [ ] Submit
 
-**References**
+## Authors
+* [**Camillo Angelozzi**](https://github.com/cangelozzi) - *Developer*
+* [**Jacob Atkinson**](https://github.com/jiatkinson) - *Video and Motion Graphics*
+* [**Emma Blue**](https://github.com/EmmaBlue) - *Project Manager*
+* [**Dan Boyden**](https://github.com/OfficialDboyden) - *Designer*
+* [**John Robertson**](https://github.com/tectone) - *Developer*
+
+## References
 
