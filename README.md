@@ -11,9 +11,9 @@
 
 ## Progress
 
-- [ ] Create WireFrames
-- [ ] Create Gui for Thermo
-- [ ] Create Thermo Model in C4D
+- [x] Create WireFrames
+- [x] Create Gui for Thermo
+- [x] Create Thermo Model in C4D
 - [ ] Code HTML
 - [ ] Code CSS
 - [ ] Code JS
