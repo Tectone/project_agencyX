@@ -4,10 +4,11 @@
 
 ## Project Requirements:
 
-## Programs Used:
+## Built With:
 
--
--
+* [CSS Grid](https://cssreference.io/css-grid/)
+* [CSS Flexbox](https://cssreference.io/flexbox/)  
+* [Javascript](https://www.javascript.com/) - Used for custom video player
 
 ## Progress
 
